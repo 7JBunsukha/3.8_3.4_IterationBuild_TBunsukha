@@ -1,0 +1,84 @@
+/* ----------  Main Div CSS ---------- */
+html{
+	background-color: yellow;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.content{
+	background-color: #fbfcf8;
+	display: grid;
+	grid-template-rows: 75px 200px 550px 750px 50px;
+	grid-template-columns: 0.5fr 15fr 0.5fr;
+	height: auto;
+	width: auto;
+}
+
+.box_1{
+	background-color: #fbfcf8;
+	border-bottom: 1px solid #888888;
+	border-top: 3px solid #b8860b;
+	grid-row: 1;
+	grid-column: 1/4;
+	max-width: 100%;
+}
+
+.box_2{
+	background-color: #fbfcf8;
+	grid-row: 2;
+	grid-column: 1/4;
+	max-width: 100%;
+}
+
+.box_3{
+	background-color: #fbfcf8;
+	border-bottom: 3px solid #b8860b;
+	border-top: 3px solid #b8860b;
+	grid-row: 3;
+	grid-column: 1/4;
+	max-width: 100%;
+}
+
+.box_4{
+	background-color: #fbfcf8;
+	border-left: 1px solid #888888;
+	border-right: 1px solid #888888;
+	grid-row: 4;
+	grid-column: 1/4;
+	width: 90%;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+.box_5{
+	background-color: #fbfcf8;
+	border-bottom: 3px solid #b8860b;
+	border-top: 1px solid #888888;
+	grid-row: 5;
+	grid-column: 1/4;
+	max-width: 100%;
+}
+
+div.polaroidG{
+	width: 300px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 0 auto 25px;
+	float: left
+}
+
+div.polaroidR{
+	width: 300px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 0 auto 25px;
+	float: right;
+}
+
+div.container {
+	text-align: center;
+	padding: 10px 20px;
+}
