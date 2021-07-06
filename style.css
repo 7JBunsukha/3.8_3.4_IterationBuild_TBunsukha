@@ -12,7 +12,7 @@ html{
 .content{
 	background-color: #fbfcf8;
 	display: grid;
-	grid-template-rows: auto auto 700px auto auto;
+	grid-template-rows: auto auto 725px auto auto;
 	grid-template-columns: 0.5fr 15fr 0.5fr;
 	height: auto;
 	width: auto;
@@ -34,7 +34,6 @@ html{
 	grid-column: 1/4;
 	max-width: 100%;
 	text-align: center;
-	padding: 50px;
 }
 
 .box_3{
@@ -54,7 +53,6 @@ html{
 	grid-column: 1/4;
 	width: 90%;
 	margin: 0 auto;
-	padding: 25px;
 }
 
 .box_5{
@@ -141,4 +139,8 @@ li a {
 	text-align: center;
 	padding: 13px 25px;
 	text-decoration: none;
+}
+
+.titlehome {
+	margin-bottom: 10px;
 }
