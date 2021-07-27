@@ -149,7 +149,7 @@ li a {
 }
 
 img {
-	position: absolute;
+	float: right;
 }
 
 .paragraph-image-box {
@@ -188,7 +188,6 @@ img {
 	max-height: 200px;
 	float: left;
 }
-
 /*PHP Form*/
 input[type=text], select, textarea {
 	width: 100%;
